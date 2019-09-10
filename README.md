@@ -29,16 +29,11 @@ Citation
 If you find our approach useful in your research, please consider citing:
 
     @conference{ACSL,
-      author    = {Xiao Dong and
-               Lei Zhu and
-               Xuemeng Song and
-               Jingjing Li and
-               Zhiyong Cheng},        
+      author    = {Xiao Dong and Lei Zhu and Xuemeng Song and Jingjing Li and Zhiyong Cheng},        
       title     = {Adaptive Collaborative Similarity Learning for Unsupervised Multi-view
-               Feature Selection},        
+                   Feature Selection},        
       booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on
-               Artificial Intelligence, {IJCAI} 2018, July 13-19, 2018, Stockholm,
-               Sweden.},               
+                   Artificial Intelligence, {IJCAI} 2018, July 13-19, 2018, Stockholm, Sweden.},               
       pages     = {2064--2070},  
       year      = {2018}
     }

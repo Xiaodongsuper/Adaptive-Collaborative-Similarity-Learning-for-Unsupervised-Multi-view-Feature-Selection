@@ -13,8 +13,7 @@ Prerequisites
 1. MATLAB
 2. Datasets.
 
-        Download dataset and  source codes.
-
+        Download dataset and put it into the data folder.
         run main.m.
 
 

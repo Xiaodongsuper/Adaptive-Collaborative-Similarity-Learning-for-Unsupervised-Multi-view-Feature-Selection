@@ -16,11 +16,8 @@ function [P, F, S, W] = ACSL(X, alpha, beta, gamma,sigma, class_num, V)
     num = 0;
     Gamma = diag(ones(d,1));
     eps = 0.0001;
-
-
     for v = 1:V
          S_d.data{v} = constructW(X.data{v},options);
-%          S_d.data{v} =   S_d.data{v}./repmat(sqrt(sum(S_d.data{v}.^2,1)),size(S_d.data{v},1),1);
          for i =1:n
             S(:, i) = S(:, i) + W(v,i)*S_d.data{v}(:,i);
          end
@@ -120,8 +117,7 @@ function [P, F, S, W] = ACSL(X, alpha, beta, gamma,sigma, class_num, V)
         num = num + 1;
         if(abs(value1-value2)<epsil)
             break;
-        end
-        
+        end       
     end
 end
 

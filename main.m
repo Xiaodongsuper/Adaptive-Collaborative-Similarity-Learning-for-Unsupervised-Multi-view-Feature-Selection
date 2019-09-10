@@ -10,7 +10,7 @@ FeaNumCandi = [100:100:500];
 k = class_num;
 label = zeros(num, 1);
 for i = 1:num
-        label(i)=find(tag(i,:)==1);
+   label(i)=find(tag(i,:)==1);
 end
 [P, F, S, W] = ACSL(X,1e-2,2e-2,1e-2, 4,  max(label), length(X.data));
 W1 = [];

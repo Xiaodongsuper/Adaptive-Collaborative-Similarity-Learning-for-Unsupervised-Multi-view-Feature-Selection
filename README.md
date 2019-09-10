@@ -6,7 +6,7 @@ Adaptive-Collaborative-Similarity-Learning-for-Unsupervised-Multi-view-Feature-S
 
 Created by Xiao Dong, Lei Zhu, Xuemeng Song, Jingjing Li, Zhiyong Cheng
 
-The details can be found in the [IJCAI 2018 paper](https://www.researchgate.net/publication/332669714_Adaptive_Collaborative_Similarity_Learning_for_Unsupervised_Multi-view_Feature_Selection).
+The details can be found in the [IJCAI 2018 paper](https://www.researchgate.net/publication/332669714_Adaptive_Collaborative_Similarity_Learning_for_Unsupervised_Multi-view_Feature_Selection)
 
 Prerequisites
 -------------

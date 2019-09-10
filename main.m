@@ -24,5 +24,5 @@ for j = 1:length(FeaNumCandi)
     res = bestMap(label,idx);
     RS_data{i}.AC(7,j)= length(find(label == res))/length(label);
     RS_data{i}.NMI(7,j) = MutualInfo(label,idx);
-  disp(['ACSL ','Selected feature num: ',num2str(FeaNumCandi(j)),', Clustering MIhat: ',num2str(RS_data{i}.NMI(7,j)), ', AC: ',num2str(  RS_data{i}.AC(7,j))]);
+    disp(['ACSL ','Selected feature num: ',num2str(FeaNumCandi(j)),', Clustering MIhat: ',num2str(RS_data{i}.NMI(7,j)), ', AC: ',num2str(  RS_data{i}.AC(7,j))]);
 end

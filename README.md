@@ -20,9 +20,9 @@ Prerequisites
 
 Resources
 ---------
-        We supply outdoor_scene dataset. You can download it by following links:
-        Outdoor-Scene dataset: https://pan.baidu.com/s/1A1J92aOf7wRY8Q_7P5oidA  
-        Extracted code：ce13 
+We supply outdoor_scene dataset. You can download it by following links:
+
+Outdoor-Scene dataset: https://pan.baidu.com/s/1A1J92aOf7wRY8Q_7P5oidA   Extracted code：ce13 
 
 Citation
 ---------

@@ -15,7 +15,7 @@ for i = 1:num
    label(i)=find(tag(i,:)==1); 
 end
 %% run ACSL
-[P, F, S, W] = ACSL(X,1e-2,2e-2, 4,  max(label), length(X.data));
+[P, F, S, W] = ACSL(X, 1e-2, 2e-2, 4, max(label), length(X.data));
 %% calculate weight
 W1 = [];
 for k = 1:diemnsion

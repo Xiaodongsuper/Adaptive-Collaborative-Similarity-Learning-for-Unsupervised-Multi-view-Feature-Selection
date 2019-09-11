@@ -105,7 +105,7 @@ function [P, F, S, W] = ACSL(X, alpha, beta, gamma, class_num, view_num)
             for v = 1:view_num
                 B_j(:,v) = S(:,j)-S_d.data{v}(:,j);
             end
-            W(:,j) = ((B_j'*B_j+eye(v)*1e-5)\ones(V,1))/(ones(V,1)'/(B_j'*B_j+eye(v)*1e-5)*ones(V,1));
+            W(:,j) = ((B_j'*B_j+eye(v)*1e-5)\ones(view_num,1))/(ones(view_num,1)'/(B_j'*B_j+eye(v)*1e-5)*ones(view_num,1));
         end
        %% calculate objective function value2
         temp_formulation1 = 0;

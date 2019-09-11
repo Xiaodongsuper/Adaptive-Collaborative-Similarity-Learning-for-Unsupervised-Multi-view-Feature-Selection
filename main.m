@@ -27,7 +27,7 @@ for j = 1:length(FeaNumCandi)
     new_fea = X.fea(:,index(1:FeaNumCandi(j)));
     idx = kmeans(new_fea, class_num);
     res = bestMap(label,idx);
-    RS_data{i}.AC(7,j)= length(find(label == res))/length(label); % calculate ACC 
-    RS_data{i}.NMI(7,j) = MutualInfo(label,idx); % calculate NMI
-    disp(['ACSL ','Selected feature num: ',num2str(FeaNumCandi(j)),', Clustering MIhat: ',num2str(RS_data{i}.NMI(7,j)), ', AC: ',num2str(  RS_data{i}.AC(7,j))]);
+    RS_data{1}.AC(1,j)= length(find(label == res))/length(label); % calculate ACC 
+    RS_data{1}.NMI(1,j) = MutualInfo(label,idx); % calculate NMI
+    disp(['ACSL ','Selected feature num: ',num2str(FeaNumCandi(j)),', Clustering MIhat: ',num2str(RS_data{1}.NMI(1,j)), ', AC: ',num2str(RS_data{1}.AC(1,j))]);
 end
